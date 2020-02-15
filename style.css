@@ -1,24 +1,17 @@
 
-.main{
 
-    margin: auto;
-    float: right;
-    padding-right: 30px;
-    font-family: 'Courgette', cursive;    
-
-}
-
-.container_name {
+ .container_name {
 
     text-align: center;
-    padding-top: 100px;
+    padding-top: 20px;
     font-family: 'Acme', sans-serif;
-    font-weight: bolder;
-    font-size: 80px;
-    height: 100%;
+    font-weight: normal;
+    font-size: 60px;
+    height: 50%;
+    justify-content: center;
    
 
-}
+} 
 
 #details {
     padding-top: 0px;
@@ -28,3 +21,4 @@
 
 
 }
+
