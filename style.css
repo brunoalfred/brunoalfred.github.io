@@ -5,7 +5,7 @@
     margin-bottom: 20px;
     float: right;
     padding-right: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
  }
 
  .container_name {
@@ -13,7 +13,7 @@
     padding-top: 20px;
     font-family: 'Acme', sans-serif;
     font-weight: normal;
-    font-size: xx-large;
+    font-size: 50px;
     height: 50%;
     justify-content: center;
 } 
