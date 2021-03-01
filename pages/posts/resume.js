@@ -5,6 +5,7 @@ import styles from '../../styles/Home.module.css'
 
 export default function Resume() {
     return (
+        <>
         <div className="styles.container">
             <Head>
                 <title>brunoalfred</title>
@@ -19,5 +20,7 @@ export default function Resume() {
 
             </main>
         </div>
+
+        </>
     )
 }
