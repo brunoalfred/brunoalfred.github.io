@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from './Header.module.css'
 import utilStyles from '../../styles/utils.module.css'
+import ProfileImage from '../ProfileImage/ProfileImage'
 import Link from 'next/link'
 
 const name = 'brunoalfred'
@@ -28,28 +28,19 @@ export default function Header({ children, home }) {
             <header className={styles.header}>
                 {home ? (
                     <>
-                        <Image
-                            priority
-                            src="/images/jasirilogo.jpg"
-                            className={utilStyles.borderCircle}
-                            height={144}
-                            width={144}
-                            alt={name}
-                        />
+
+
+                        {/* height, width=144, name */}
+                        <ProfileImage />
                         <h1 className={utilStyles.heading2Xl}>{name}</h1>
                     </>
                 ) : (
                         <>
                             <Link href="/">
                                 <a>
-                                    <Image
-                                        priority
-                                        src="/images/jasirilogo.jpg"
-                                        className={utilStyles.borderCircle}
-                                        height={108}
-                                        width={108}
-                                        alt={name}
-                                    />
+                                    
+                                    {/* height, width = 108, name */}
+                                    <ProfileImage />
                                 </a>
                             </Link>
                             <h2 className={utilStyles.headingLg}>
