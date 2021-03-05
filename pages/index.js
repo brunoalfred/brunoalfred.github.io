@@ -22,7 +22,7 @@ export default function Home() {
         <ProfileImage height={140} width={140} name={'bruno'} />
 
         <h1 className={styles.title}>
-          It's {'  '}<a href="#">brunoalfred</a>
+          It's {'  '}Bruno Alfred
         </h1>
 
         <p className={styles.description}>
