@@ -5,7 +5,7 @@ export default function TryMe(){
         <>
         
         <div>
-            <Header/>
+        
         </div>
         
         </>

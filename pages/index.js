@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
+import ProfileImage from '../components/ProfileImage/ProfileImage'
 
 import styles from '../styles/Home.module.css'
 
@@ -10,13 +11,16 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>brunoalfred</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/jasirilogo.ico" />
       </Head>
 
 
 
 
       <main className={styles.main}>
+
+        <ProfileImage height={140} width={140} name={'bruno'} />
+
         <h1 className={styles.title}>
           It's {'  '}<a href="#">brunoalfred</a>
         </h1>
@@ -30,13 +34,13 @@ export default function Home() {
 
 
           <Link href="/posts/resume" >
-          
+
 
             <a className={styles.card}>
               <h3>Resume &rarr;</h3>
               <p>As i showcase my skills and experiences in brief</p>
             </a>
-          
+
           </Link>
 
           <Link href="/social-media" >
@@ -51,7 +55,7 @@ export default function Home() {
           <Link href="/projects">
 
             <a
-              
+
               className={styles.card}
             >
               <h3>Projects &rarr;</h3>
@@ -60,7 +64,7 @@ export default function Home() {
 
           </Link>
 
-         <Link href="/try-me">
+          <Link href="/try-me">
             <a
               className={styles.card}
             >
@@ -69,13 +73,13 @@ export default function Home() {
                 Incase of anything you can just reach me out instantly..
             </p>
             </a>
-         
-         </Link>
+
+          </Link>
         </div>
-       
+
       </main>
-<Footer/>
-     
+      <Footer />
+
     </div>
   )
 }

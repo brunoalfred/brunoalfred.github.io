@@ -31,7 +31,7 @@ export default function Header({ children, home }) {
 
 
                         {/* height, width=144, name */}
-                        <ProfileImage />
+                        <ProfileImage height="144" width="144" name="brunoalfred" />
                         <h1 className={utilStyles.heading2Xl}>{name}</h1>
                     </>
                 ) : (
@@ -40,7 +40,7 @@ export default function Header({ children, home }) {
                                 <a>
                                     
                                     {/* height, width = 108, name */}
-                                    <ProfileImage />
+                                    <ProfileImage height="108" width="108" name="brunoalfred" />
                                 </a>
                             </Link>
                             <h2 className={utilStyles.headingLg}>
