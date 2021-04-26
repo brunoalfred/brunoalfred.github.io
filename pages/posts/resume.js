@@ -24,7 +24,7 @@ export default function Resume() {
 
 
                             <a className={styles.card}>
-                                <h3>Preview &rarr;</h3>
+                                <h3>Preview It &rarr;</h3>
                                 <p>Just View it Right Here</p>
                             </a>
 
@@ -49,16 +49,18 @@ export default function Resume() {
                                 <style jsx>
                                     {
                                         `
-                     a {
+                   
+                                        a {
                         text-decoration: none;
                     }
-                            a:link, a:visited {
+                                     a:link, a:visited {
                            color: black;
                         }       
-                a:hover {
-                    color:blue;
+                     a:hover {
+                        color:blue;
                     }
-                                        `
+                                       
+                    `
                                     }
 
                                 </style>
