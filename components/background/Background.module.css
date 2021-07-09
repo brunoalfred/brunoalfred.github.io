@@ -2,6 +2,10 @@
     width: 100%;
     background-image: url(../../public/images/bg.jpg);
     background-size: cover;
-    background-repeat: repeat-y;
+    background-repeat: repeat-y;  
+}
+
+.background body {
+    margin: 0px;
 }
 
