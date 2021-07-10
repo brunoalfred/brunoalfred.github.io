@@ -1,3 +1,4 @@
+import Script from 'next/script'
 import Head from 'next/head';
 import Base from '../layout/Base';
 
@@ -7,9 +8,10 @@ export default function Home() {
     <Base>
       <Head>
         <script type="text/javascript" src="../static/index.js"></script>
+        {/* <Script type="text/javascript" src="../static/index.js"></Script> */}
       </Head>
       <div>
-        <h1>I'm a
+        <h1>I&apos;m a
           <span
             className="txt-rotate txt"
             data-period={2000}
