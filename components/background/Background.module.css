@@ -1,11 +1,16 @@
-.background{
-    width: 100%;
-    background-image: url(../../public/images/bg.jpg);
-    background-size: cover;
-    background-repeat: repeat-y;  
+.background {
+  width: 100%;
+  background-image: url(../../public/images/bg.jpg);
+  background-size: cover;
+  background-repeat:repeat-y;
 }
 
 .background body {
-    margin: 0px;
+  margin: 0px;
 }
 
+/* @media (max-width: 600px) {
+  div {
+    background: blue;
+  }
+} */

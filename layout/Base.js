@@ -6,12 +6,14 @@ import styles from './Base.module.css';
 
 export default function Base({ children }) {
     return (
-        <Background>
+        <Background style={{height: 100 + 'vh'}}> 
             <Header />
             <main>{children}</main>
             <Footer />
         </Background>
     )
 };
+
+
 
 export { Base }
